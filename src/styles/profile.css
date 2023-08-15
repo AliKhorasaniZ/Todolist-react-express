@@ -1,0 +1,15 @@
+.wrapCont {
+  display: flex;
+  justify-content: center;
+}
+
+.profileContainer {
+  margin-top: 5em;
+  width: 50%;
+}
+
+.subItem {
+  background-color: rgb(33, 33, 33);
+  color: rgb(203, 228, 222);
+  padding: 1em;
+}

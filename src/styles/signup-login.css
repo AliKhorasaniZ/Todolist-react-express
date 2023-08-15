@@ -1,0 +1,44 @@
+.flexContainer {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+
+  width: 400px;
+}
+
+.centerDiv {
+  display: flex;
+  justify-content: center;
+}
+
+form label {
+  color: rgb(165, 165, 165);
+  font-size: 1.125em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.butCont {
+  display: flex;
+  justify-content: center;
+}
+
+.butCont button {
+  margin-top: 3em;
+  background-color: rgb(135, 189, 189);
+}
+
+.signUp button {
+  width: 200px;
+}
+
+.logIn button {
+  width: 100px;
+}
+
+.modal {
+  color: rgb(170, 170, 170);
+  text-align: center;
+  margin: 2em;
+}

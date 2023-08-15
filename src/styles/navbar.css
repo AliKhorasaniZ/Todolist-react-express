@@ -1,0 +1,90 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.miniCont {
+  display: flex;
+
+  justify-content: space-around;
+  color: white;
+  padding-top: 0.5em;
+
+  width: 100%;
+}
+
+.division {
+  display: flex;
+}
+
+.item {
+  display: flex;
+
+  align-items: center;
+  margin: 1em;
+}
+
+#link {
+  font-size: 1.25em;
+  color: white;
+  text-decoration: none;
+}
+
+#link:hover {
+  color: rgb(0, 195, 216);
+}
+
+.navbar h2 {
+  color: rgb(203, 228, 222);
+  text-decoration: underline;
+}
+
+/* ------------------------------------------ */
+
+.subMenu {
+  position: absolute;
+  top: 75px;
+  width: 180px;
+}
+
+.subMenu hr {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.subMenuLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.subMenuLink i {
+  margin-right: 2em;
+  margin-left: 0.25em;
+}
+
+.subMenuLink:hover p {
+  font-weight: 600;
+}
+
+/* ------------------------------------------ */
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-right: 1em;
+  padding-left: 1em;
+
+  background-color: rgb(73, 91, 91);
+}
+
+.profile h3 {
+  font-weight: 500;
+}
+
+.profile:hover {
+  cursor: pointer;
+  background-color: rgb(78, 81, 81);
+}
