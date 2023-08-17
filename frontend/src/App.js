@@ -12,7 +12,7 @@ import "./styles/navbar.css";
 
 import SignUpPage from "./components/Signup.static";
 import LoginPage from "./components/Login.static";
-import "./styles/signup-login.css";
+import "./styles/signup_login.css";
 
 import Todolist from "./components/Todolist.component";
 import "./styles/todolist.css";

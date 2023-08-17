@@ -2,7 +2,7 @@ const Router = require("express").Router();
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
-const userCollection = require("../models/user.model");
+const user_collection = require("../models/user.model");
 
 // -----------------------------------------------
 
@@ -10,7 +10,7 @@ Router.post("/login", async (req, res) => {
   const userName = req.body.userName;
   const password = req.body.password;
 
-  const user = (await userCollection.find({ userName }))[0];
+  const user = (await user_collection.find({ userName }))[0];
 
   if (user === undefined) {
     res.status(404).json("User dosent exist");
@@ -32,7 +32,7 @@ Router.post("/signup", async (req, res) => {
   //const tasks = req.body.tasks;
   const tasks = [];
 
-  const newUser = new userCollection({
+  const newUser = new user_collection({
     userName,
     password,
     email,

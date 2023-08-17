@@ -17,14 +17,14 @@ app.use(express.json());
 
 // Routes
 
-const getRequests = require("./routes/get.route");
-app.use("/", getRequests);
+const get_requests = require("./routes/get.route");
+app.use("/", get_requests);
 
-const postRequests = require("./routes/post.route");
-app.use("/", postRequests);
+const post_requests = require("./routes/post.route");
+app.use("/", post_requests);
 
-const putRequests = require("./routes/put.route");
-app.use("/", putRequests);
+const put_requests = require("./routes/put.route");
+app.use("/", put_requests);
 
 // mango db connection -----------------------------
 
