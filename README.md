@@ -3,22 +3,28 @@
 This repository provides an example to a simple todolist app costuructed using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 Frontend and backend are located in diffrent directories for furthur simplecity.
 
-### **This porject supports** : 
-
-- JWT authentication
-- React routing using React-router-dom
-- MongoDB model schemas
-- Axios Api
 
 
 ## **Table of contents** :
 
+- [Project Details](#details)
 - [Requirments](#Requirments)
 - [Setup instructions](#SetupInstructions)
   - [Windows](#Windows)
   - [Mac / Linux](#Mac/Linux)
 - [Configuration Guide](#ConfigurationGuide)
 
+<a name="details"></a>
+
+## **Project details** : 
+
+This porject uses the following consepts:
+
+- JWT authentication
+- React routing using React-router-dom
+- MongoDB model schemas
+- Axios Api
+- 
 <a name="Requirments"></a>
 
 ## **Requirments** :
@@ -39,9 +45,10 @@ Frontend and backend are located in diffrent directories for furthur simplecity.
 2. Run setup.bat located in the main directory.
 3. Wait for the batch script to execute and close.
 4. Navigate to the main folder and open the .env file.
-5. In the .env file, add your Atlas URI (required) followed by your preferred localhost port for the backend server to be hosted at (optional, defaults to 5000)
-6. Add your JWT secret token for data encription (optional, default value is provided).
-7. The setup process is complete. To start the application, run start.bat.
+5. In the .env file, add your Atlas URI (required)
+6. Add your preferred localhost port for the backend server to be hosted at (optional, defaults to 5000)
+7. Add your JWT secret token for data encription (optional, default value is provided).
+8. The setup process is complete. To start the application, run start.bat.
 
 <a name="Mac/Linux"></a>
 
