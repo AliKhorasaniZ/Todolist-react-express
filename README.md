@@ -1,9 +1,7 @@
-# Todolist webpage in React and Express
+# Todolist webpage using React-Express-MongoDB
 
 This repository provides an example to a simple todolist app costuructed using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 Frontend and backend are located in diffrent directories for furthur simplecity.
-
-
 
 ## **Table of contents** :
 
@@ -24,13 +22,13 @@ This porject uses the following consepts:
 - React routing using React-router-dom
 - MongoDB model schemas
 - Axios Api
-- 
+  
 <a name="Requirments"></a>
 
 ## **Requirments** :
 
 - Node.js installed on your system ( [Download Node.js](https://nodejs.org/en/download/current) )
-- MongoDB Atlas connection string ( [Set up a MongoDB atlas account](https://discordpy.readthedocs.io/en/stable/discord.html) )
+- MongoDB Atlas connection string ( [Set up a MongoDB Atlas account](https://discordpy.readthedocs.io/en/stable/discord.html) )
 
 <a name="SetupInstructions"></a>
 
@@ -54,6 +52,12 @@ This porject uses the following consepts:
 
 ### For mac / linux users:
 
+In the case you are using a unic based operating system, you will need to manually perform the steps listed in hte setup.bat file, as batch files are not exexutable on unix systems. In general, you would need to:
+
+- Install the dependencies listed in package.json for each of the directories
+- Manually create a .env file and provide the required tags as listed in the setup.bat file
+
+If you need more help with executing these commands, i recomend simply asking ChatGPT to provide you with .sh commands
 
 <a name="ConfigurationGuide"></a>
 
