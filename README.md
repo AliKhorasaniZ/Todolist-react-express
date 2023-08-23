@@ -1,0 +1,59 @@
+# Todolist webpage in React and Express
+
+This repository provides an example to a simple todolist app costuructed using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
+Frontend and backend are located in diffrent directories for furthur simplecity.
+
+### **This porject supports** : 
+
+- JWT authentication
+- React routing using React-router-dom
+- MongoDB model schemas
+- Axios Api
+
+
+## **Table of contents** :
+
+- [Requirments](#Requirments)
+- [Setup instructions](#SetupInstructions)
+  - [Windows](#Windows)
+  - [Mac / Linux](#Mac/Linux)
+- [Configuration Guide](#ConfigurationGuide)
+
+<a name="Requirments"></a>
+
+## **Requirments** :
+
+- Node.js installed on your system ( [Download Node.js](https://nodejs.org/en/download/current) )
+- MongoDB Atlas connection string ( [Set up a MongoDB atlas account](https://discordpy.readthedocs.io/en/stable/discord.html) )
+
+<a name="SetupInstructions"></a>
+
+## **Setup Instructions** :
+
+1. Clone this repository to a directory of your choice on your local system.
+
+<a name="Windows"></a>
+
+### For windows users:
+
+2. Run setup.bat located in the main directory.
+3. Wait for the batch script to execute and close.
+4. Navigate to the main folder and open the .env file.
+5. In the .env file, add your Atlas URI (required) followed by your preferred localhost port for the backend server to be hosted at (optional, defaults to 5000)
+6. Add your JWT secret token for data encription (optional, default value is provided).
+7. The setup process is complete. To start the application, run start.bat.
+
+<a name="Mac/Linux"></a>
+
+### For mac / linux users:
+
+
+<a name="ConfigurationGuide"></a>
+
+## **Configuration guide** :
+
+Configuring your bot is a straightforward process. By creating your own modules and importing them as extensions in main.py or
+editing the already existing modules, you can customize your bot's behavior.
+Keep in mind to write and edit the code with regards to the Discord.py API reference.
+
+Discord.py API reference: https://discordpy.readthedocs.io/en/stable/api.html
