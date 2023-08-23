@@ -30,7 +30,7 @@ An Atlas URI is not necessary if you are only running the frontend code.
 ## **Requirements**:
 
 - Node.js installed on your system ([Download Node.js](https://nodejs.org/en/download/current))
-- MongoDB Atlas connection string ([Set up a MongoDB Atlas account](https://discordpy.readthedocs.io/en/stable/discord.html))
+- MongoDB Atlas connection string ([Set up a MongoDB Atlas account]([https://discordpy.readthedocs.io/en/stable/discord.html](https://www.mongodb.com/cloud/atlas/register?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core_prosp-brand_gic-null_emea-se_ps-all_desktop_eng_lead&utm_term=mongodb%20atlas%20online&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624566&adgroup=115749708183&cq_cmp=12212624566&gad=1&gclid=Cj0KCQjw3JanBhCPARIsAJpXTx44HmZiqm-TijfmOpayIFd7OYDIL-6A-1iK1a6z_jRqExAQ0jMDz1saArFcEALw_wcB)))
 
 <a name="setup-instructions"></a>
 
