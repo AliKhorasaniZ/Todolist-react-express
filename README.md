@@ -10,7 +10,6 @@ The frontend and backend are located in different directories for further simpli
 - [Setup Instructions](#setup-instructions)
   - [Windows](#windows)
   - [Mac / Linux](#mac-linux)
-- [Configuration Guide](#configuration-guide)
 
 <a name="details"></a>
 
@@ -22,6 +21,9 @@ This project uses the following concepts:
 - React routing using React Router DOM
 - MongoDB model schemas
 - Axios API
+
+It is possible to run each direcotry seperatly, to do so, after finnishing the setup proccess locato to your desired directory and run npm start.
+You would not need to 
   
 <a name="requirements"></a>
 
@@ -55,16 +57,6 @@ This project uses the following concepts:
 If you are using a Unix-based operating system, you will need to manually perform the steps listed in the setup.bat file, as batch files are not executable on Unix systems. In general, you would need to:
 
 - Install the dependencies listed in package.json for each of the directories
-- Manually create a .env file and provide the required tags as listed in the setup.bat file
+- Manually create a .env file and provide the required valus as listed in the setup.bat file
 
 If you need more help with executing these commands, I recommend simply asking ChatGPT to provide you with the equivalent .sh commands.
-
-<a name="configuration-guide"></a>
-
-## **Configuration Guide** :
-
-Configuring your bot is a straightforward process. By creating your own modules and importing them as extensions in main.py, or
-editing the already existing modules, you can customize your bot's behavior.
-Keep in mind to write and edit the code with regards to the Discord.py API reference.
-
-Discord.py API reference: [https://discordpy.readthedocs.io/en/stable/api.html](https://discordpy.readthedocs.io/en/stable/api.html)
