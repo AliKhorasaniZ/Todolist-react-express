@@ -25,8 +25,8 @@ echo Backend dependencies installed successfully.
 rem Create .env file
 (
     echo ATLAS_URI=uri_here
-    echo PORT=port_here
-    echo ACCESS_TOKEN_SECRET=jsw_token_here
+    echo PORT=5000
+    echo ACCESS_TOKEN_SECRET=0cee08d00b93411c058078ac4f38123f9d16c8b264759f450bd8e0715fa30191
 ) >> .env
 
 rem Change back to the frontend directory
