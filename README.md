@@ -1,6 +1,7 @@
 # Todolist Webpage using React-Express-MongoDB
 
-This repository provides an example of a simple todolist app constructed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The frontend and backend are located in different directories for further simplicity.
+This repository provides an example of a simple todolist app constructed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. 
+The frontend and backend are located in different directories for further simplicity.
 
 ## **Table of Contents** :
 
