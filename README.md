@@ -44,7 +44,7 @@ An Atlas URI is not necessary if you are only running the frontend code.
 
 2. Run `setup.bat` located in the main directory.
 3. Wait for the batch script to execute (a message asking to press a key will be displayed at the end).
-4. Navigate to the main folder and open the `.env` file.
+4. Navigate to the backend folder and open the `.env` file.
 5. In the `.env` file, add your Atlas URI (required).
 6. Add your preferred localhost port for the backend server to be hosted at (optional, defaults to 5000).
 7. Add your JWT secret token for data encryption (optional, default value is provided).
